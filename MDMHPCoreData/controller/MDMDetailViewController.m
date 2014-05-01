@@ -51,8 +51,10 @@
 - (void)setupView {
 
     self.title = self.sighting.name;
-   NSURL *url = [NSURL URLWithString:self.sighting.avatar];
-    self.shapeImage.image =  [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
+   // NSURL *url = [NSURL URLWithString:self.sighting.avatar];
+   // self.shapeImage.image =  [UIImage imageWithData:[NSData dataWithContentsOfURL:url]];
+    self.shapeImage.image =  [UIImage imageWithData:self.sighting.avatarImageData];
+    
     self.descriptionTextView.text = self.sighting.text;
     self.shapeLabel.text=self.sighting.name;
     self.sightedLabel.text=self.sighting.guid;

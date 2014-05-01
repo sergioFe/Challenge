@@ -398,8 +398,11 @@ static const NSUInteger MDM_BATCH_SIZE_SAVE = 5000;
     CGFloat h=size.height;
     if(h<21)
         h=21;
-    UFOSightingManagedObject.textHeight=h;
+    UFOSightingManagedObject.textHeight=[NSNumber numberWithFloat:h];
 
+    NSURL *url = [NSURL URLWithString:UFOSightingManagedObject.avatar];
+    UFOSightingManagedObject.avatarImageData=[NSData dataWithContentsOfURL:url];
+    
     
     
     

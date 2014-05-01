@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMHPCoreData/model/MDMUFOSightingImportOperation.m"
-            timestampString = "420580414.737878"
+            timestampString = "420650108.999472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "413"
-            endingLineNumber = "413"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
             landmarkName = "-batchImportWithEfficientFindOrCreateAndPeriodicSaves"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMHPCoreData/model/MDMUFOSightingImportOperation.m"
-            timestampString = "420580414.737878"
+            timestampString = "420650108.999472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "487"
-            endingLineNumber = "487"
+            startingLineNumber = "490"
+            endingLineNumber = "490"
             landmarkName = "-batchImportWithEfficientFindOrCreateAndPeriodicSaves"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MDMHPCoreData/model/MDMUFOSightingImportOperation.m"
-            timestampString = "420580414.737878"
+            timestampString = "420650108.999472"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "469"
-            endingLineNumber = "469"
+            startingLineNumber = "472"
+            endingLineNumber = "472"
             landmarkName = "-batchImportWithEfficientFindOrCreateAndPeriodicSaves"
             landmarkType = "5">
          </BreakpointContent>

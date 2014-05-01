@@ -31,5 +31,6 @@
 @dynamic guid;
 @dynamic avatar;
 @dynamic textHeight;
+@dynamic avatarImageData;
 
 @end

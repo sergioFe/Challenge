@@ -31,6 +31,7 @@
 @property (nonatomic, retain) NSString * text;
 @property (nonatomic, retain) NSString * guid;
 @property (nonatomic, retain) NSString * avatar;
-@property NSInteger textHeight;
+@property (nonatomic, retain) NSNumber * textHeight;
+@property (nonatomic, retain) NSData * avatarImageData;
 
 @end

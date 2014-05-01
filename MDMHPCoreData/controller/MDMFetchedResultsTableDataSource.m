@@ -114,7 +114,7 @@ static NSString * const CELL_RESOURCE_IDENTIFIER = @"Cell";
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UFOSighting * item = [self itemAtIndexPath:indexPath];
-    CGFloat height=item.textHeight;
+    CGFloat height=[item.textHeight floatValue];
     CGFloat h=20+height;
     if(h<44)
         h=44;
@@ -126,7 +126,7 @@ static NSString * const CELL_RESOURCE_IDENTIFIER = @"Cell";
     [self configureCell:cell atIndexPath:indexPath];
     
     UFOSighting * item = [self itemAtIndexPath:indexPath];
-    CGFloat h=item.textHeight;
+    CGFloat h=[item.textHeight floatValue];
     CGRect frame=cell.text.frame;
     frame.size.height=h;
     cell.text.frame=frame;
